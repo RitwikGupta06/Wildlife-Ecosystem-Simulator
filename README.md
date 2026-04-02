@@ -88,6 +88,9 @@ and modifying populations or parameters before continuing.
 - Possible extension: multi-species food web (add vegetation, scavengers)
 
 
+**2. Once you have created the virtual environment**
+```bash
 source ~/venv/bin/activate
 cd ~/Desktop/"AI PR"
 streamlit run app.py
+```
