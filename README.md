@@ -34,7 +34,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ```
 wildlife_simulator/
-├── app.py              # Streamlit UI — main entry point
+├── app.py              # Streamlit UI  main entry point
 ├── simulator.py        # Simulation engine (Lotka-Volterra + RK4 + interventions)
 ├── train_model.py      # ML model training (generates data + trains classifier)
 ├── requirements.txt    # Python dependencies
@@ -82,9 +82,9 @@ and modifying populations or parameters before continuing.
 
 ## Academic Notes
 
-- The phase portrait shows prey vs predator directly — a closed loop means a stable cycle
+- The phase portrait shows prey vs predator directly  a closed loop means a stable cycle
 - The AI risk model can be improved by adding more features or using a neural network
-- Real-world dataset to compare against: **Canadian Lynx-Hare** (Hudson Bay Company records)
+- Real world dataset to compare against: **Canadian Lynx-Hare** (Hudson Bay Company records)
 - Possible extension: multi-species food web (add vegetation, scavengers)
 
 
